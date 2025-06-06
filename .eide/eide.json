@@ -1,0 +1,85 @@
+{
+  "name": "Project",
+  "type": "C51",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Source Group 1",
+        "files": [
+          {
+            "path": "Delay.c"
+          },
+          {
+            "path": "Delay.h"
+          },
+          {
+            "path": "main.c"
+          },
+          {
+            "path": "Timer0.c"
+          },
+          {
+            "path": "Timer0.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "8ee86fe59da99aefe9332d1143301a5b"
+  },
+  "targets": {
+    "Target 1": {
+      "excludeList": [],
+      "toolchain": "Keil_C51",
+      "compileConfig": {
+        "options": "null"
+      },
+      "uploader": "Custom",
+      "uploadConfig": {
+        "bin": "",
+        "commandLine": "",
+        "eraseChipCommand": ""
+      },
+      "uploadConfigMap": {},
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "../../../../keil5_C51/C51/INC/Atmel"
+        ],
+        "libList": [],
+        "defineList": []
+      },
+      "builderOptions": {
+        "Keil_C51": {
+          "version": 2,
+          "beforeBuildTasks": [],
+          "afterBuildTasks": [],
+          "global": {
+            "ram-mode": "SMALL",
+            "rom-mode": "LARGE"
+          },
+          "c/cpp-compiler": {
+            "optimization-type": "SPEED",
+            "optimization-level": "level-8"
+          },
+          "asm-compiler": {},
+          "linker": {
+            "remove-unused": true,
+            "output-format": "elf",
+            "misc-controls": ""
+          }
+        }
+      }
+    }
+  },
+  "version": "3.5"
+}

@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "MAIN.C": "cpp",
+            "DELAY.C": "cpp",
+            "TIMER0.C": "cpp"
+        }
+    },
+    "extensions": {}
+}
